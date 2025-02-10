@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1738942460072' stop='1738942468724'>
+    <name>Performance Glitch Checkout</name>
+    <title>Performance Glitch Checkout</title>
+    <test-cases>
+        <test-case start='1738942462131' status='failed' stop='1738942468564'>
+            <name>should complete checkout for performance_glitch_user</name>
+            <title>should complete checkout for performance_glitch_user</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected 'Thank you for your order!' to include 'THANK YOU FOR YOUR ORDER'</message>
+                <stack-trace>AssertionError: expected 'Thank you for your order!' to include 'THANK YOU FOR YOUR ORDER'
+                    at Context.&lt;anonymous> (test\performance.test.js:47:40)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1738942457409' stop='1738942460068'>
+    <name>Login Test - locked_out_user</name>
+    <title>Login Test - locked_out_user</title>
+    <test-cases>
+        <test-case start='1738942458651' status='passed' stop='1738942459966'>
+            <name>should show error message for locked_out_user</name>
+            <title>should show error message for locked_out_user</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

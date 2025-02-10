@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1738942742946' stop='1738942746270'>
+    <name>Login Test - locked_out_user</name>
+    <title>Login Test - locked_out_user</title>
+    <test-cases>
+        <test-case start='1738942744122' status='broken' stop='1738942746130'>
+            <name>should show error message for locked_out_user</name>
+            <title>should show error message for locked_out_user</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (C:\Users\Abirs\Documents\GitHub\automation_qa_project\test\login.test.js)</message>
+                <stack-trace>Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (C:\Users\Abirs\Documents\GitHub\automation_qa_project\test\login.test.js)
+                    at listOnTimeout (node:internal/timers:573:17)
+                    at process.processTimers (node:internal/timers:514:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
